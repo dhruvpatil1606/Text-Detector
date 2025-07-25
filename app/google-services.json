@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "187550629245",
+    "project_id": "text-detection-app-ef3bc",
+    "storage_bucket": "text-detection-app-ef3bc.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:187550629245:android:733ad91515e2c26aea2014",
+        "android_client_info": {
+          "package_name": "com.example.text_detection_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDk3b-1v2R8Gt5iNpuGy9_1sCC4epRKsP8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
