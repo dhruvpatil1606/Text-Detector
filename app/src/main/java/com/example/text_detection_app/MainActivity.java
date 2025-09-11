@@ -56,6 +56,8 @@ public class MainActivity extends AppCompatActivity {
         snapbtn = findViewById(R.id.snapbtn);
         detectbtn = findViewById(R.id.detectbtn);
         text = findViewById(R.id.text);
+        TextView Note1=findViewById(R.id.lbl1);
+        TextView Note2=findViewById(R.id.lbl2);
 
         detectbtn.setOnClickListener(new View.OnClickListener()
         {
@@ -72,9 +74,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v)
             {
+                Note1.setVisibility(View.GONE);
+                Note2.setVisibility(View.GONE);
                 //method to capture out image
                 captureImage();
+                text.setMaxHeight(900);
             }
+
         });
 
 

@@ -5,10 +5,36 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
+    android:layout_marginTop="35dp"
     tools:context=".MainActivity">
 
     <!--image view to display our image-->
+
+    <TextView
+        android:id="@+id/lbl1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="10dp"
+        android:text="Note : Click on Button Snap to take pitcure"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/lbl2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lbl1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginRight="10dp"
+        android:text="Note : Click on Button Detect to extract text from pitcure"
+        android:textSize="20dp" />
+
     <ImageView
+        android:background="@drawable/border"
         android:id="@+id/image"
         android:layout_width="200dp"
         android:layout_height="200dp"
@@ -17,17 +43,26 @@
         android:layout_marginTop="45dp"
         android:scaleType="centerCrop" />
 
+
+
     <!--text view to display our extracted text-->
+
+    <!--button to capture our image-->
+
     <TextView
         android:id="@+id/text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/image"
-        android:layout_marginTop="30dp"
-        android:textSize="15sp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/black"
+        android:textIsSelectable="true"
+        android:textSize="25sp"
         android:textStyle="bold" />
 
-    <!--button to capture our image-->
     <Button
         android:id="@+id/snapbtn"
         android:layout_width="wrap_content"

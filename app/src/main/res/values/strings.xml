@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">text_detection_app</string>
+    <string name="placeHolder">Img</string>
 </resources>
